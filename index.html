@@ -101,10 +101,12 @@
         }
 
         @media only screen and (max-width: 700px) {
-            .ui.fixed.menu {
+            /* .ui.fixed.menu {
                 display: none !important;
+            } */
+            .ui.icon.buttons.social {
+                display:none !important;
             }
-
             .secondary.pointing.menu .item,
             .secondary.pointing.menu .menu {
                 display: none;
@@ -167,12 +169,12 @@
     <div class="ui inverted top fixed compact hidden menu">
         <p class="item">Saint Sav' Danse</p>
         <div class="right item">
-            <div class="ui icon buttons">
+            <div class="ui icon buttons social">
                 <a class="ui facebook button" href="http://facebook.com"><i class="facebook icon"></i></a>
                 <a class="ui twitter button" href="http://twitter.com"><i class="twitter icon"></i></a>
                 <a class="ui instagram button" href="http://instagram.com"><i class="instagram icon"></i></a>
             </div>
-            <div class="item">
+            <div style="padding-left:1em">
                 <a href="tel:0667001736">
                     <div class="ui yellow animated right button">
                         <div class="visible content">Nous contacter !</div>
